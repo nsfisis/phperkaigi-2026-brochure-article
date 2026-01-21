@@ -1,0 +1,1 @@
+<?php $s = '<?php $s = \'...\'; echo strtr($s, [str_repeat(\'.\', 3) => addslashes($s)]);'; echo strtr($s, [str_repeat('.', 3) => addslashes($s)]);

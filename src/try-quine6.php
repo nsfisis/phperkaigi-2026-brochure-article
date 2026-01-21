@@ -1,0 +1,1 @@
+<?php $s = 'echo strtr("<?php \$s = \'...\'; eval(\$s);", [str_repeat(\'.\', 3) => addcslashes($s, chr(39))]);'; eval($s);
